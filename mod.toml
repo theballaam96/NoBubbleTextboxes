@@ -1,0 +1,16 @@
+[manifest]
+id = "no_bubble_textboxes"
+version = "1.0.0"
+display_name = "No Bubble Textboxes"
+description = "Brings the textbox style to be a lower-third black box"
+short_description = "Brings the textbox style to be a lower-third black box"
+authors = [ "Ballaam" ]
+game_id = "dk64"
+minimum_recomp_version = "1.0.0"
+
+[inputs]
+elf_path = "build/mod.elf"
+mod_filename = "no_bubble_textboxes"
+func_reference_syms_file = "Dk64Syms/dump.toml"
+data_reference_syms_files = [ "Dk64Syms/data_dump.toml" ]
+additional_files = ["thumb.dds"]
